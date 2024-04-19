@@ -132,6 +132,7 @@ It provides methods to:
 Below you can see the code using ink!.
 
 ```rust
+#![doc(html_playground_url = "https://ink-playground.substrate.io/compile/5.0.0/")]
 #[ink::contract]
 mod flipper {
     /// The storage of the flipper contract.
